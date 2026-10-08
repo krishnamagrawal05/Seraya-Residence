@@ -1,0 +1,1864 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090c">
+  <meta name="description" content="Seraya Residence — a cinematic island residence concept.">
+  <title>Seraya Residence – Island After Dark</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="ambient" aria-hidden="true">
+    <i></i><i></i><i></i><i></i>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+
+    <a class="brand" href="#top">
+      <strong>SERAYA</strong>
+      <span>RESIDENCE</span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#story">Story</a>
+      <a href="#residences">Stay</a>
+      <a href="#experiences">Experience</a>
+      <a href="#dining">Dining</a>
+      <a href="#island">Island</a>
+      <a href="#shop">Shop</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <button class="sound" id="soundToggle" type="button" aria-pressed="false">
+        <b></b>
+        <span>Sound off</span>
+      </button>
+
+      <a class="mini-cta" href="#planner">Plan stay</a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobileNav"
+      >
+        <i></i>
+        <i></i>
+      </button>
+
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#story">Story</a>
+    <a href="#residences">Stay</a>
+    <a href="#experiences">Experience</a>
+    <a href="#dining">Dining</a>
+    <a href="#wellness">Wellness</a>
+    <a href="#island">Island</a>
+    <a href="#shop">Shop</a>
+    <a href="#planner">Plan stay</a>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80"
+      >
+        <source src="assets/resort.mp4" type="video/mp4">
+      </video>
+
+      <div class="hero-fallback"></div>
+      <div class="hero-shade"></div>
+
+      <div class="fish" aria-hidden="true">
+        <span>◁≋</span>
+        <span>◁≋</span>
+        <span>◁≋</span>
+        <span>◁≋</span>
+      </div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow light">
+          PRIVATE ISLAND / INDIAN OCEAN
+        </p>
+
+        <h1>
+          Seraya<br>
+          <em>after dark.</em>
+        </h1>
+
+        <p class="hero-copy">
+          A cinematic island residence concept shaped around quiet mornings,
+          ocean light, warm evenings and unhurried days.
+        </p>
+
+        <div class="actions">
+          <a class="btn light" href="#residences">
+            Explore residences
+            <span>↘</span>
+          </a>
+
+          <a class="link light-link" href="#journal">
+            Read the story ↗
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 / ISLAND STORY</span>
+        <span>28° / SAMPLE</span>
+        <span>18:42 / SUNSET</span>
+      </div>
+
+      <a class="scroll-cue" href="#story">
+        SCROLL TO DISCOVER ↓
+      </a>
+
+    </section>
+
+
+    <!-- STORY -->
+    <section class="section intro" id="story">
+
+      <div class="section-kicker">
+        01 / STORY
+      </div>
+
+      <div class="split-head">
+
+        <div>
+          <p class="eyebrow">THE SERAYA STORY</p>
+
+          <h2>
+            A private world<br>
+            <em>between land & sea.</em>
+          </h2>
+        </div>
+
+        <div class="copy">
+
+          <p class="lead">
+            Seraya is an intimate island escape created for people who
+            appreciate the quieter side of luxury.
+          </p>
+
+          <p>
+            Wake with the sea, wander through tropical gardens,
+            pause beside the pool, dine beneath the stars and let
+            the island decide the pace.
+          </p>
+
+          <a class="link" href="#journal">
+            Open the journal ↗
+          </a>
+
+        </div>
+
+      </div>
+
+      <figure class="feature-image reveal">
+
+        <img
+          src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1800&q=82"
+          data-fallback="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1800&q=82"
+          alt="Tropical resort pool and gardens"
+          loading="lazy"
+        >
+
+        <figcaption>
+          SERAYA / 01 — THE QUIET SIDE OF LUXURY
+        </figcaption>
+
+      </figure>
+
+    </section>
+
+
+    <!-- MARQUEE -->
+    <section class="marquee">
+      <div>
+        <span>BAREFOOT MORNINGS</span>
+        <i>✦</i>
+        <span>OCEAN RESIDENCES</span>
+        <i>✦</i>
+        <span>WARM NIGHTS</span>
+        <i>✦</i>
+        <span>ISLAND LIGHT</span>
+        <i>✦</i>
+      </div>
+    </section>
+
+
+    <!-- RESIDENCES -->
+    <section class="section residences" id="residences">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">02 / RESIDENCES</p>
+
+          <h2>
+            Choose your
+            <em>island rhythm.</em>
+          </h2>
+        </div>
+
+        <p>
+          Four distinct residences designed around privacy, natural light
+          and different views of the island. Rates are sample frontend prices.
+        </p>
+
+      </div>
+
+
+      <div class="residence-grid">
+
+        <article class="residence reveal">
+
+          <div class="image">
+
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=82"
+              data-fallback="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1100&q=82"
+              alt="Ocean Garden Villa interior"
+              loading="lazy"
+            >
+
+            <span>01</span>
+
+          </div>
+
+          <div class="card-body">
+
+            <small>GARDEN · $680 / NIGHT</small>
+
+            <h3>Ocean Garden Villa</h3>
+
+            <p>
+              A private garden residence with ocean-facing terraces.
+            </p>
+
+            <button
+              class="outline stay-select"
+              data-stay="Ocean Garden Villa"
+            >
+              View stay
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="residence reveal">
+
+          <div class="image">
+
+            <img
+              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1100&q=82"
+              data-fallback="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1100&q=82"
+              alt="Beachfront Pool Villa interior"
+              loading="lazy"
+            >
+
+            <span>02</span>
+
+          </div>
+
+          <div class="card-body">
+
+            <small>BEACHFRONT · $920 / NIGHT</small>
+
+            <h3>Beachfront Pool Villa</h3>
+
+            <p>
+              Step from your private pool directly toward the sea.
+            </p>
+
+            <button
+              class="outline stay-select"
+              data-stay="Beachfront Pool Villa"
+            >
+              View stay
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="residence reveal">
+
+          <div class="image">
+
+            <img
+              src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1100&q=82"
+              data-fallback="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1100&q=82"
+              alt="Sunset Residence interior"
+              loading="lazy"
+            >
+
+            <span>03</span>
+
+          </div>
+
+          <div class="card-body">
+
+            <small>SUNSET · $1,280 / NIGHT</small>
+
+            <h3>Sunset Residence</h3>
+
+            <p>
+              Elevated living with uninterrupted evening light.
+            </p>
+
+            <button
+              class="outline stay-select"
+              data-stay="Sunset Residence"
+            >
+              View stay
+            </button>
+
+          </div>
+
+        </article>
+
+
+        <article class="residence reveal">
+
+          <div class="image">
+
+            <img
+              src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=82"
+              data-fallback="https://images.unsplash.com/photo-1600607688960-e095ff83135c?auto=format&fit=crop&w=1100&q=82"
+              alt="Seraya Grand Residence interior"
+              loading="lazy"
+            >
+
+            <span>04</span>
+
+          </div>
+
+          <div class="card-body">
+
+            <small>SIGNATURE · $1,850 / NIGHT</small>
+
+            <h3>Seraya Grand Residence</h3>
+
+            <p>
+              The largest residence for longer, slower island stays.
+            </p>
+
+            <button
+              class="outline stay-select"
+              data-stay="Seraya Grand Residence"
+            >
+              View stay
+            </button>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <div class="comparison reveal">
+
+        <div class="table-title">
+          <p class="eyebrow">RESIDENCE GUIDE</p>
+          <h3>Compare the four rhythms.</h3>
+        </div>
+
+        <div class="table-scroll">
+
+          <table>
+
+            <thead>
+              <tr>
+                <th>Residence</th>
+                <th>View</th>
+                <th>Pool</th>
+                <th>Size</th>
+                <th>Sample rate</th>
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>Ocean Garden Villa</td>
+                <td>Garden / ocean</td>
+                <td>—</td>
+                <td>85 m²</td>
+                <td>$680</td>
+                <td>
+                  <button class="table-add" data-stay="Ocean Garden Villa">
+                    Add
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Beachfront Pool Villa</td>
+                <td>Beach</td>
+                <td>✓</td>
+                <td>120 m²</td>
+                <td>$920</td>
+                <td>
+                  <button class="table-add" data-stay="Beachfront Pool Villa">
+                    Add
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Sunset Residence</td>
+                <td>Sunset</td>
+                <td>✓</td>
+                <td>165 m²</td>
+                <td>$1,280</td>
+                <td>
+                  <button class="table-add" data-stay="Sunset Residence">
+                    Add
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Seraya Grand Residence</td>
+                <td>Ocean</td>
+                <td>✓</td>
+                <td>240 m²</td>
+                <td>$1,850</td>
+                <td>
+                  <button class="table-add" data-stay="Seraya Grand Residence">
+                    Add
+                  </button>
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- DAY AT SERAYA -->
+    <section class="section dark" id="day">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">03 / DAY AT SERAYA</p>
+
+          <h2>
+            Let the island<br>
+            <em>set the pace.</em>
+          </h2>
+        </div>
+
+        <p>
+          One sample day — designed to show how the experience flows
+          from first light to cinema under the stars.
+        </p>
+
+      </div>
+
+      <div class="day-grid">
+
+        <div class="day-photo reveal">
+          <img
+            src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=82"
+            alt="Warm island sunset"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="timeline">
+
+          <article>
+            <time>07:00</time>
+            <div>
+              <b>MORNING</b>
+              <h3>Sunrise breakfast</h3>
+              <p>
+                Fresh fruit, warm pastries and coffee overlooking the water.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <time>09:30</time>
+            <div>
+              <b>EXPLORE</b>
+              <h3>Reef discovery</h3>
+              <p>
+                A guided, supervised ocean experience beyond the shoreline.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <time>12:30</time>
+            <div>
+              <b>DINING</b>
+              <h3>Lunch at Tide House</h3>
+              <p>
+                Island produce, grilled catch and chilled tropical drinks.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <time>15:00</time>
+            <div>
+              <b>PAUSE</b>
+              <h3>Pool & garden</h3>
+              <p>
+                A slow afternoon between the infinity pool and shaded gardens.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <time>17:45</time>
+            <div>
+              <b>SUNSET</b>
+              <h3>Golden-hour picnic</h3>
+              <p>
+                A private picnic setup with a zero-proof sunset cooler.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <time>20:00</time>
+            <div>
+              <b>NIGHT</b>
+              <h3>Dinner beneath the stars</h3>
+              <p>
+                A candlelit table followed by cinema under the night sky.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCES -->
+    <section class="section experiences" id="experiences">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">04 / EXPERIENCES</p>
+
+          <h2>
+            Choose your<br>
+            <em>island mood.</em>
+          </h2>
+        </div>
+
+        <p>
+          Ocean time, gardens, games and easy afternoons.
+          All activities shown are sample frontend content.
+        </p>
+
+      </div>
+
+      <div class="experience-grid">
+
+        <article class="experience tall reveal">
+          <img
+            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1100&q=82"
+            alt="Clear ocean experience"
+            loading="lazy"
+          >
+          <div>
+            <small>01 · $45</small>
+            <h3>Reef Discovery</h3>
+            <p>Guided, supervised ocean exploration.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1000&q=82"
+            data-fallback="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?auto=format&fit=crop&w=1000&q=82"
+            alt="Calm tropical water for sunrise kayaking"
+            loading="lazy"
+          >
+          <div>
+            <small>02 · $35</small>
+            <h3>Sunrise Kayak</h3>
+            <p>A calm early-morning paddle along the coast.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1000&q=82"
+            alt="Tropical forest"
+            loading="lazy"
+          >
+          <div>
+            <small>03 · $28</small>
+            <h3>Jungle Walk</h3>
+            <p>A gentle guided walk through native island gardens.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1560089000-7433a4ebbd64?auto=format&fit=crop&w=1000&q=82"
+            alt="Infinity swimming pool"
+            loading="lazy"
+          >
+          <div>
+            <small>04 · INCLUDED</small>
+            <h3>Infinity Pool</h3>
+            <p>All-day access to the ocean-facing pool.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1523867574998-1a336b6ded04?auto=format&fit=crop&w=1000&q=82"
+            alt="Table tennis pavilion"
+            loading="lazy"
+          >
+          <div>
+            <small>05 · $18</small>
+            <h3>Games Pavilion</h3>
+            <p>Table tennis, chess and board games.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=82"
+            alt="Outdoor cinema atmosphere"
+            loading="lazy"
+          >
+          <div>
+            <small>06 · $24</small>
+            <h3>Cinema Under Stars</h3>
+            <p>Outdoor film night with island snacks.</p>
+          </div>
+        </article>
+
+        <article class="experience reveal">
+          <img
+            src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1000&q=82"
+            alt="Yoga by the sea"
+            loading="lazy"
+          >
+          <div>
+            <small>07 · $30</small>
+            <h3>Sunrise Yoga</h3>
+            <p>Quiet movement on the ocean deck.</p>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- WELLNESS -->
+    <section class="section wellness dark" id="wellness">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">05 / WELLNESS</p>
+
+          <h2>
+            Make space for<br>
+            <em>quiet.</em>
+          </h2>
+        </div>
+
+        <p>
+          A gentle wellness menu focused on rest, movement and simple rituals.
+        </p>
+
+      </div>
+
+      <div class="wellness-grid">
+
+        <figure class="wellness-photo reveal">
+          <img
+            src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1100&q=82"
+            alt="Calm wellness treatment room"
+            loading="lazy"
+          >
+        </figure>
+
+        <div class="wellness-list">
+
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Garden Facial Ritual</h3>
+              <p>Cooling botanicals and a slow facial ritual.</p>
+            </div>
+            <b>$80</b>
+          </article>
+
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Ocean-Deck Stretch</h3>
+              <p>Easy guided movement with sea views.</p>
+            </div>
+            <b>$30</b>
+          </article>
+
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Calm Body Ritual</h3>
+              <p>A relaxing full-body wellness treatment.</p>
+            </div>
+            <b>$95</b>
+          </article>
+
+          <article>
+            <span>04</span>
+            <div>
+              <h3>Private Meditation</h3>
+              <p>Quiet guided breathing and reflection.</p>
+            </div>
+            <b>$35</b>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- GAMES -->
+    <section class="section games" id="games">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">06 / GAMES</p>
+
+          <h2>
+            Play after<br>
+            <em>sunset.</em>
+          </h2>
+        </div>
+
+        <p>
+          A social pavilion for families and friends who want an evening away
+          from screens.
+        </p>
+
+      </div>
+
+      <div class="game-grid">
+
+        <article>
+          <span>01</span>
+          <h3>Table Tennis</h3>
+          <p>Complimentary</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Chess Garden</h3>
+          <p>Complimentary</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Board Game Library</h3>
+          <p>Complimentary</p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>Family Game Night</h3>
+          <p>$20 / group</p>
+        </article>
+
+        <article>
+          <span>05</span>
+          <h3>Lawn Games</h3>
+          <p>$12 / set</p>
+        </article>
+
+        <article>
+          <span>06</span>
+          <h3>Private Game Lounge</h3>
+          <p>$45 / hour</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- DINING -->
+    <section class="section dining dark" id="dining">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">07 / DINING</p>
+
+          <h2>
+            A table for<br>
+            <em>every hour.</em>
+          </h2>
+        </div>
+
+        <p>
+          Breakfast, lunch, snacks, dinner, desserts and a complete
+          zero-proof sunset menu.
+        </p>
+
+      </div>
+
+      <div class="dining-feature reveal">
+
+        <img
+          src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1600&q=82"
+          alt="Elegant dining table"
+          loading="lazy"
+        >
+
+        <div>
+          <small>TIDE HOUSE · ALL DAY</small>
+
+          <h3>Island produce, ocean air.</h3>
+
+          <p>
+            Menus change with the season. Prices shown are illustrative.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="menu-tabs" role="tablist">
+        <button class="active" data-menu="breakfast">Breakfast</button>
+        <button data-menu="lunch">Lunch</button>
+        <button data-menu="snacks">Snacks</button>
+        <button data-menu="dinner">Dinner</button>
+        <button data-menu="dessert">Desserts</button>
+        <button data-menu="bar">Sunset zero-proof bar</button>
+      </div>
+
+      <div class="menu-panel" id="menuPanel"></div>
+
+    </section>
+
+
+    <!-- CELEBRATIONS -->
+    <section class="section celebrations" id="celebrations">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">08 / CELEBRATIONS</p>
+
+          <h2>
+            Mark the moment<br>
+            <em>beautifully.</em>
+          </h2>
+        </div>
+
+        <p>
+          Choose a celebration mood and the sample planner will build
+          a simple concept for you.
+        </p>
+
+      </div>
+
+      <div class="celebration-grid">
+
+        <button
+          class="celebrate active"
+          data-celebration="Birthday"
+        >
+          <span>01</span>
+          <h3>Birthday</h3>
+          <p>
+            Garden lights, cake, games and a sunset table.
+          </p>
+        </button>
+
+        <button
+          class="celebrate"
+          data-celebration="Anniversary"
+        >
+          <span>02</span>
+          <h3>Anniversary</h3>
+          <p>
+            Private dinner, flowers and a quiet ocean view.
+          </p>
+        </button>
+
+        <button
+          class="celebrate"
+          data-celebration="Private Dinner"
+        >
+          <span>03</span>
+          <h3>Private Dinner</h3>
+          <p>
+            A tailored menu and intimate table setting.
+          </p>
+        </button>
+
+        <button
+          class="celebrate"
+          data-celebration="Family Gathering"
+        >
+          <span>04</span>
+          <h3>Private Event</h3>
+          <p>
+            A flexible island gathering for a small group.
+          </p>
+        </button>
+
+      </div>
+
+      <div class="celebration-result" id="celebrationResult">
+        Birthday selected — your sample concept includes a sunset table,
+        cake and garden lights.
+      </div>
+
+    </section>
+
+
+    <!-- ISLAND MAP -->
+    <section class="section island dark" id="island">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">09 / THE ISLAND</p>
+
+          <h2>
+            Find your<br>
+            <em>place.</em>
+          </h2>
+        </div>
+
+        <p>
+          Click any location. The photo, description and details change
+          smoothly in the panel.
+        </p>
+
+      </div>
+
+      <div class="island-layout">
+
+        <div class="map-panel">
+
+          <div class="map-photo">
+
+            <img
+              id="mapPhoto"
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1100&q=82"
+              alt="Arrival Lounge"
+              loading="lazy"
+            >
+
+          </div>
+
+          <div class="map-copy">
+
+            <span id="mapNumber">01</span>
+
+            <h3 id="mapTitle">
+              Arrival Lounge
+            </h3>
+
+            <p id="mapDescription">
+              Your first pause on the island, with cool towels,
+              fresh fruit and an ocean-facing welcome.
+            </p>
+
+            <div>
+              <b id="mapMeta">08:00 — 22:00</b>
+              <strong id="mapPrice">Included</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="island-map">
+
+          <div class="water-lines"></div>
+          <div class="island-shape"></div>
+
+          <span class="map-name">
+            SERAYA ISLAND
+          </span>
+
+          <button
+            class="map-pin active"
+            style="left:25%;top:29%"
+            data-place="arrival"
+          >
+            01
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:49%;top:23%"
+            data-place="villas"
+          >
+            02
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:70%;top:35%"
+            data-place="pool"
+          >
+            03
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:38%;top:54%"
+            data-place="dining"
+          >
+            04
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:59%;top:64%"
+            data-place="wellness"
+          >
+            05
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:79%;top:68%"
+            data-place="games"
+          >
+            06
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:17%;top:72%"
+            data-place="cinema"
+          >
+            07
+          </button>
+
+          <button
+            class="map-pin"
+            style="left:47%;top:83%"
+            data-place="reef"
+          >
+            08
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">10 / GALLERY</p>
+
+          <h2>
+            Moments worth<br>
+            <em>keeping.</em>
+          </h2>
+        </div>
+
+        <p>
+          Click any image for a larger view.
+        </p>
+
+      </div>
+
+      <div class="gallery-grid">
+
+        <figure class="gallery-item large reveal">
+          <img
+            src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1400&q=82"
+            alt="Tropical beach"
+            loading="lazy"
+          >
+          <figcaption>THE SHORE</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=82"
+            alt="Golden hour"
+            loading="lazy"
+          >
+          <figcaption>GOLDEN HOUR</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=82"
+            alt="Wild gardens"
+            loading="lazy"
+          >
+          <figcaption>WILD GARDENS</figcaption>
+        </figure>
+
+        <figure class="gallery-item wide reveal">
+          <img
+            src="https://images.unsplash.com/photo-1540202404-a2f29016b523?auto=format&fit=crop&w=1400&q=82"
+            alt="Turquoise sea"
+            loading="lazy"
+          >
+          <figcaption>BEYOND THE REEF</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1000&q=82"
+            alt="Luxury interior"
+            loading="lazy"
+          >
+          <figcaption>INSIDE SERAYA</figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1000&q=82"
+            alt="Resort pool"
+            loading="lazy"
+          >
+          <figcaption>THE POOL</figcaption>
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- JOURNAL -->
+    <section class="section journal dark" id="journal">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">11 / JOURNAL</p>
+
+          <h2>
+            Stories from<br>
+            <em>the island.</em>
+          </h2>
+        </div>
+
+        <p>
+          Small stories that make the destination feel alive.
+        </p>
+
+      </div>
+
+      <div class="journal-grid">
+
+        <article class="journal-card reveal">
+          <span>01 / STORY</span>
+          <h3>The Art of Slow Mornings</h3>
+          <p>
+            Coffee, salt air and first light across the garden.
+          </p>
+          <button class="story-btn" data-story="mornings">
+            Read story ↗
+          </button>
+        </article>
+
+        <article class="journal-card reveal">
+          <span>02 / FOOD</span>
+          <h3>Island Flavours</h3>
+          <p>
+            How the kitchen turns local ingredients into quiet luxury.
+          </p>
+          <button class="story-btn" data-story="food">
+            Read story ↗
+          </button>
+        </article>
+
+        <article class="journal-card reveal">
+          <span>03 / PLACE</span>
+          <h3>Life Beneath the Reef</h3>
+          <p>
+            A closer look at the waters surrounding Seraya.
+          </p>
+          <button class="story-btn" data-story="reef">
+            Read story ↗
+          </button>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PLANNER -->
+    <section class="section planner" id="planner">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">12 / STAY PLANNER</p>
+
+          <h2>
+            Build your<br>
+            <em>sample stay.</em>
+          </h2>
+        </div>
+
+        <p>
+          Send a booking inquiry for follow-up. Submitting this form does not
+          confirm a reservation or collect payment.
+        </p>
+
+      </div>
+
+      <div class="planner-grid">
+
+        <form id="plannerForm" class="planner-form">
+
+          <label>
+            Residence
+
+            <select id="staySelect">
+              <option value="680">
+                Ocean Garden Villa — $680 / night
+              </option>
+
+              <option value="920">
+                Beachfront Pool Villa — $920 / night
+              </option>
+
+              <option value="1280">
+                Sunset Residence — $1,280 / night
+              </option>
+
+              <option value="1850">
+                Seraya Grand Residence — $1,850 / night
+              </option>
+            </select>
+
+          </label>
+
+          <div class="dates">
+
+            <label>
+              Check in
+              <input id="checkIn" name="checkIn" type="date" required>
+            </label>
+
+            <label>
+              Check out
+              <input id="checkOut" name="checkOut" type="date" required>
+            </label>
+
+          </div>
+
+          <fieldset>
+
+            <legend>Optional additions</legend>
+
+            <label>
+              <input
+                type="checkbox"
+                value="Garden Facial Ritual"
+                data-price="80"
+              >
+              Garden Facial Ritual — $80
+            </label>
+
+            <label>
+              <input
+                type="checkbox"
+                value="Beach Picnic"
+                data-price="70"
+              >
+              Beach Picnic — $70
+            </label>
+
+            <label>
+              <input
+                type="checkbox"
+                value="Cinema Under Stars"
+                data-price="24"
+              >
+              Cinema Under Stars — $24
+            </label>
+
+            <label>
+              <input
+                type="checkbox"
+                value="Private Dinner"
+                data-price="95"
+              >
+              Private Dinner — $95
+            </label>
+
+          </fieldset>
+
+          <div class="planner-contact">
+
+            <label>
+              Full name
+              <input
+                id="guestName"
+                name="guestName"
+                type="text"
+                autocomplete="name"
+                maxlength="120"
+                required
+              >
+            </label>
+
+            <label>
+              Email
+              <input
+                id="guestEmail"
+                name="guestEmail"
+                type="email"
+                autocomplete="email"
+                maxlength="254"
+                required
+              >
+            </label>
+
+            <label>
+              Phone
+              <input
+                id="guestPhone"
+                name="guestPhone"
+                type="tel"
+                autocomplete="tel"
+                maxlength="40"
+                required
+              >
+            </label>
+
+            <label>
+              Guests
+              <input
+                id="guestCount"
+                name="guestCount"
+                type="number"
+                min="1"
+                max="20"
+                value="2"
+                required
+              >
+            </label>
+
+          </div>
+
+          <label class="planner-trap" aria-hidden="true">
+            Leave this field empty
+            <input name="website" type="text" tabindex="-1" autocomplete="off">
+          </label>
+
+          <button class="btn gold full" type="submit">
+            Send booking inquiry
+          </button>
+
+        </form>
+
+
+        <div class="plan-result" id="planResult">
+
+          <span>YOUR PLAN</span>
+
+          <h3>
+            Select a residence and dates.
+          </h3>
+
+          <p>
+            Your illustrative total will appear here.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SUSTAINABILITY -->
+    <section class="section sustainability dark" id="sustainability">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">13 / SUSTAINABILITY</p>
+
+          <h2>
+            Luxury with a<br>
+            <em>lighter footprint.</em>
+          </h2>
+        </div>
+
+        <p>
+          A concept built around slower travel, local sourcing and
+          thoughtful design.
+        </p>
+
+      </div>
+
+      <div class="sustain-grid">
+
+        <article>
+          <span>01</span>
+          <h3>Local-first kitchen</h3>
+          <p>
+            Seasonal ingredients and menus shaped by what the island
+            can provide.
+          </p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Low-light nights</h3>
+          <p>
+            Warm, focused lighting keeps the night atmosphere calm.
+          </p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Refill culture</h3>
+          <p>
+            Reusable water stations replace unnecessary single-use bottles.
+          </p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>Garden habitat</h3>
+          <p>
+            Native planting creates shade, habitat and a sense of place.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ARRIVAL -->
+    <section class="section arrival" id="arrival">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">14 / ARRIVAL JOURNEY</p>
+
+          <h2>
+            From arrival to<br>
+            <em>island time.</em>
+          </h2>
+        </div>
+
+        <p>
+          A simple four-step arrival sequence for the concept experience.
+        </p>
+
+      </div>
+
+      <div class="arrival-grid">
+
+        <article>
+          <span>01</span>
+          <h3>Touch down</h3>
+          <p>
+            Private arrival and a cool towel welcome.
+          </p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Cross the water</h3>
+          <p>
+            A quiet transfer toward the residence island.
+          </p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Settle in</h3>
+          <p>
+            Private check-in, fresh fruit and a room orientation.
+          </p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>First sunset</h3>
+          <p>
+            Choose the pool, beach, garden or dining terrace.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- SHOP -->
+    <section class="section shop dark" id="shop">
+
+      <div class="section-head">
+
+        <div>
+          <p class="eyebrow">
+            15 / THE SHOP
+            <span class="bag">
+              BAG
+              <b id="bagCount">0</b>
+            </span>
+          </p>
+
+          <h2>
+            Take a little<br>
+            <em>Seraya home.</em>
+          </h2>
+        </div>
+
+        <p>
+          Concept-store products and prices are illustrative.
+        </p>
+
+      </div>
+
+      <div class="shop-grid">
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=82"
+            alt="Island candle"
+            loading="lazy"
+          >
+
+          <small>HOME · $28</small>
+          <h3>Island Candle</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Island Candle"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=82"
+            alt="Travel journal"
+            loading="lazy"
+          >
+
+          <small>TRAVEL · $18</small>
+          <h3>Island Journal</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Island Journal"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://www.hunker.com/hunker/best-waffle-robes/a98ced8181d44740a74f39c31de357b2.jpg"
+            alt="Neutral waffle robe"
+            loading="lazy"
+          >
+
+          <small>WEAR · $75</small>
+          <h3>Seraya Robe</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Seraya Robe"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=900&q=82"
+            alt="Curated gift set"
+            loading="lazy"
+          >
+
+          <small>GIFTS · $55</small>
+          <h3>Island Gift Set</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Island Gift Set"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=900&q=82"
+            alt="Linen shirt"
+            loading="lazy"
+          >
+
+          <small>WEAR · $60</small>
+          <h3>Seraya Linen Shirt</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Seraya Linen Shirt"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+
+        <article class="shop-card reveal">
+
+          <img
+            src="https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=82"
+            alt="Travel pouch"
+            loading="lazy"
+          >
+
+          <small>TRAVEL · $24</small>
+          <h3>Travel Pouch</h3>
+
+          <button
+            class="shop-btn"
+            data-product="Travel Pouch"
+          >
+            Add to bag
+          </button>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONDITIONS -->
+    <section class="section conditions">
+
+      <div class="conditions-card">
+
+        <div>
+          <p class="eyebrow">16 / ISLAND CONDITIONS</p>
+          <h2>Tonight on Seraya.</h2>
+        </div>
+
+        <div class="condition-grid">
+
+          <div>
+            <span>28°</span>
+            <small>AIR</small>
+          </div>
+
+          <div>
+            <span>24°</span>
+            <small>SEA</small>
+          </div>
+
+          <div>
+            <span>LOW</span>
+            <small>WIND</small>
+          </div>
+
+          <div>
+            <span>18:42</span>
+            <small>SUNSET</small>
+          </div>
+
+        </div>
+
+        <p class="sample-note">
+          Sample conditions for the website concept — not live weather data.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div>
+
+      <a class="brand" href="#top">
+        <strong>SERAYA</strong>
+        <span>RESIDENCE</span>
+      </a>
+
+      <p>Island after dark.</p>
+
+    </div>
+
+    <div class="footer-links">
+      <a href="#residences">Stay</a>
+      <a href="#dining">Dining</a>
+      <a href="#experiences">Experience</a>
+      <a href="#shop">Shop</a>
+    </div>
+
+    <small>
+      © 2026 Seraya Residence concept. Frontend demo.
+    </small>
+
+  </footer>
+
+
+  <!-- TOAST -->
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <!-- STORY MODAL -->
+  <div
+    class="story-modal"
+    id="storyModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal-backdrop"
+      data-close-modal
+    ></div>
+
+    <article class="modal-card">
+
+      <button
+        class="modal-close"
+        id="storyClose"
+        type="button"
+        aria-label="Close"
+      >
+        ×
+      </button>
+
+      <span id="storyCategory">STORY</span>
+
+      <h2 id="storyTitle">
+        The Art of Slow Mornings
+      </h2>
+
+      <p id="storyText"></p>
+
+    </article>
+
+  </div>
+
+
+  <!-- LIGHTBOX -->
+  <div
+    class="lightbox"
+    id="lightbox"
+    aria-hidden="true"
+  >
+
+    <button
+      id="lightboxClose"
+      type="button"
+      aria-label="Close image"
+    >
+      ×
+    </button>
+
+    <img
+      id="lightboxImage"
+      src=""
+      alt=""
+    >
+
+  </div>
+
+</body>
+</html>
